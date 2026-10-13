@@ -1,0 +1,89 @@
+{
+  "members": [
+    {
+      "id": "932c839eee496740",
+      "name": "Samer Radi",
+      "phone": "96176545614",
+      "team": "Caisse",
+      "roleDescription": "Caisse focal"
+    },
+    {
+      "id": "9fce41dc9dcec355",
+      "name": "Vanessa Sayde",
+      "phone": "96178856839",
+      "team": "Security In",
+      "roleDescription": "Security In focal"
+    },
+    {
+      "id": "172e72f6cc362996",
+      "name": "Simar Bou Malek",
+      "phone": "96178828660",
+      "team": "Security Out",
+      "roleDescription": "Security Out focal"
+    },
+    {
+      "id": "4c77ed2192ffbf5a",
+      "name": "Nai Majari",
+      "phone": "96170936546",
+      "team": "Before and After",
+      "roleDescription": "Before and After focal"
+    },
+    {
+      "id": "f907bddd0d00a8b5",
+      "name": "Ali Hashoush",
+      "phone": "9613658059",
+      "team": "Before and After",
+      "roleDescription": "Before and After focal"
+    },
+    {
+      "id": "74d41cf3fa80df12",
+      "name": "Paula Zakaria",
+      "phone": "96179193754",
+      "team": "Food Court",
+      "roleDescription": "Food Court focal"
+    },
+    {
+      "id": "8f610a9d30df08a5",
+      "name": "Hawraa Al Atat",
+      "phone": "96181439320",
+      "team": "Cleanliness",
+      "roleDescription": "Cleanliness focal"
+    },
+    {
+      "id": "a4c043f7e49f02c1",
+      "name": "Asaad Sareiddin",
+      "phone": "96176712949",
+      "team": "Registration",
+      "roleDescription": "Registration focal"
+    },
+    {
+      "id": "2430ca4340dfd1ae",
+      "name": "Adham Shayya",
+      "phone": "96178921848",
+      "team": "Ambiance and Animation",
+      "roleDescription": "Ambiance and Animation focal"
+    },
+    {
+      "id": "767d65bfffcc1cf9",
+      "name": "TBA",
+      "phone": "",
+      "team": "Lost and Found",
+      "roleDescription": "Lost and Found focal"
+    },
+    {
+      "id": "bb9af7fdab68ccf8",
+      "name": "Hussein Moussa",
+      "phone": "96178867886",
+      "team": "Depot",
+      "roleDescription": "Depot focal"
+    },
+    {
+      "id": "f641acc716a97764",
+      "name": "Enaam Chaaban",
+      "phone": "96171685239",
+      "team": "Outreach",
+      "roleDescription": "Outreach focal"
+    }
+  ],
+  "updatedAt": "2026-10-13T15:50:00.000Z"
+}

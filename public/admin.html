@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Member CSV Import · LRC Child Festival</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2229%22%20fill%3D%22white%22%20stroke%3D%22%23d71920%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20fill%3D%22%23d71920%22%20d%3D%22M25%2013h14v12h12v14H39v12H25V39H13V25h12z%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="/admin.css?v=20261012-theme">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="LRC Child Festival team hub">
+        <span class="brand-mark" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="29" fill="white" stroke="#d71920" stroke-width="4"/><path fill="#d71920" d="M25 13h14v12h12v14H39v12H25V39H13V25h12z"/></svg></span>
+        <span>LRC Child Festival<small>Lebanese Red Cross · Team hub</small></span>
+      </a>
+      <span class="header-status">Organizer portal</span>
+    </div>
+  </header>
+  <nav class="admin-navigation" aria-label="Admin navigation">
+    <div class="container nav-inner"><a class="nav-link" href="/">← Back to the team hub</a><p class="nav-current" aria-current="page">Member directory</p><button id="logout" class="secondary-button" type="button">Log out</button></div>
+  </nav>
+  <main id="main-content" class="shell">
+    <section class="panel" aria-labelledby="page-title">
+      <p class="eyebrow">Organizer access</p>
+      <h1 id="page-title">Update the member directory.</h1>
+      <p class="intro">Choose a CSV file with the four required columns below. A successful import validates every row, then replaces the current public directory in one operation.</p>
+      <div class="headers" aria-label="Required CSV columns"><code>Name</code><code>Phone</code><code>Team</code><code>Role description</code></div>
+      <form id="import-form" class="admin-form">
+        <label for="csv-file">CSV file</label>
+        <input id="csv-file" name="csv-file" type="file" accept=".csv,text/csv" required>
+        <p id="file-summary" class="hint">Maximum file size: 5 MB.</p>
+        <button class="primary-button" type="submit">Validate and import</button>
+      </form>
+      <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+    </section>
+    <section class="panel secondary" aria-labelledby="example-title">
+      <p class="eyebrow">File format</p>
+      <h2 id="example-title">CSV example</h2>
+      <pre>Name,Phone,Team,Role description
+Jane Doe,96170123456,Registration,Welcome families and manage check-in
+John Doe,96171123456,Fleet,Coordinate driver arrivals</pre>
+      <p class="hint">Phone numbers may contain spaces, <code>+</code>, parentheses, or hyphens; they are saved as international digits. Leave the field blank if no approved contact number is available.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>LRC Child Festival · Organizer portal</p><a href="/">Public team hub</a></div></footer>
+  <script src="/admin.js?v=20261012-theme" defer></script>
+</body>
+</html>
