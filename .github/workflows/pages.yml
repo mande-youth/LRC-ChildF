@@ -28,6 +28,8 @@ jobs:
         run: |
           mkdir -p _site
           cp public/index.html public/festival-map-illustrated.png _site/
+          mkdir -p _site/admin
+          cp pages/admin/index.html _site/admin/index.html
           touch _site/.nojekyll
 
       - name: Configure Pages
