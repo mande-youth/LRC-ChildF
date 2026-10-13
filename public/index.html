@@ -316,7 +316,10 @@ function renderTeams() {
 teamSearch.addEventListener('input',renderTeams);
 teamFilter.addEventListener('change',renderTeams);
 renderTeams();
-fetch('/api/members')
+const API_BASE = location.hostname.endsWith('.github.io')
+ ? 'https://contacts-admin-crisis-2026.fly.dev'
+ : '';
+fetch(`${API_BASE}/api/members`)
  .then(response => response.ok ? response.json() : Promise.reject(new Error('Member API unavailable')))
  .then(data => {
   if (!Array.isArray(data.members) || !data.members.length) return;
