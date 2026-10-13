@@ -83,7 +83,21 @@
       "phone": "96171685239",
       "team": "Outreach",
       "roleDescription": "Outreach focal"
+    },
+    {
+      "id": "c51781861009108b",
+      "name": "Ali Ismail",
+      "phone": "96171271087",
+      "team": "PSS and Activity",
+      "roleDescription": "PSS and Activity focal"
+    },
+    {
+      "id": "e6245b550e00de6f",
+      "name": "Catherine Iskandar",
+      "phone": "96181309663",
+      "team": "PSS and Activity",
+      "roleDescription": "PSS and Activity focal"
     }
   ],
-  "updatedAt": "2026-10-13T15:50:00.000Z"
+  "updatedAt": "2026-10-13T16:46:17.000Z"
 }
